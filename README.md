@@ -76,22 +76,5 @@ Cada elemento del array representa una carta del tarot y tiene la siguiente estr
 }
 ```
 
-# Campos detallados
-| Campo              | Tipo     | Descripción                                                                                         |
-|--------------------|----------|-------------------------------------------------------------------------------------------------|
-| `id`               | string   | Identificador único de la carta.                                                                 |
-| `arcaneNumber`     | string   | Número asociado a la carta dentro del arcano (puede ser "0", "1", etc.).                         |
-| `arcaneName`       | string   | Nombre de la carta del tarot (por ejemplo, "El Loco").                                           |
-| `arcaneDescription`| string   | Descripción o significado de la carta en términos esotéricos y simbólicos.                       |
-| `arcaneImage`      | object   | Objeto con información de la imagen de la carta:                                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;`imageSrc` | string   | URL con la imagen que representa la carta.                                                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;`author`   | string   | Nombre del autor o fuente de la imagen.                                                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;`license`  | string   | Información sobre la licencia de uso de la imagen.                                              |
-| `goddessName`      | string   | Nombre de la diosa contemporánea asociada simbólicamente a la carta.                             |
-| `goddessDescription`| string  | Descripción o biografía breve de la diosa contemporánea.                                        |
-| `goddessImage`     | object   | Objeto con información de la imagen de la diosa:                                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;`imageSrc` | string   | URL con la imagen de la diosa.                                                                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;`author`   | string   | Nombre del autor o fuente de la imagen de la diosa.                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;`licenseUrl`| string  | URL que apunta a la licencia bajo la cual está publicada la imagen de la diosa.                 |
 
 
