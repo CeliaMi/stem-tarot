@@ -13,7 +13,7 @@ Desarrollar una aplicación web en React que permita visualizar cartas de tarot,
 
 ### Funcionalidad principal  
 - Consumir la API pública de cartas de tarot:  
-  `https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot`
+  [https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot](https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot)
 - Mostrar todas las cartas en una página principal, boca abajo (sin revelar el contenido).
 - Al hacer clic en una carta, navegar a una página de detalle mostrando:  
   - Nombre de la carta  
