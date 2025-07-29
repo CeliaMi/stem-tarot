@@ -1,5 +1,5 @@
 # Briefing  Tarot STEM
-Con este proyecto podrás conocer a las mujeres del mundo de la ciencia y técnología, o lo que es lo mismo, las Diosas contemporaneas 👩‍🔬
+Con este proyecto podrás conocer a las mujeres del mundo de la ciencia y tecnología, o lo que es lo mismo, las Diosas contemporaneas 👩‍🔬
 > Este proyecto lo realizamos en colaboración con el equipo formativo FactoriaF5 Barcelona🌟 que ha creado esta API tan chula que ahora vamos a consumir desde React
 >
 > agradecimiento especial a [@MAlexGG](https://github.com/MAlexGG)
