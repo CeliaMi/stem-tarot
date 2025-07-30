@@ -11,39 +11,43 @@ Desarrollar una aplicación web en React que permita visualizar cartas de tarot,
 
 ## Nivel 1: Visualización básica de cartas
 
-### Funcionalidad principal  
-- Consumir la API pública de cartas de tarot:  
+### Funcionalidad principal : Consumir la API pública de cartas de tarot:  
   [https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot](https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot)
   
-- Mostrar todas las cartas en una página principal, boca abajo (sin revelar el contenido).
-   Dicho de en otras palabras: hacer un GET de todas las cartas y mostrarlas en pantalla
-    Hooks que necesitamos: `useEffect`, `useParams` y `useState`
+- 1️⃣ Mostrar todas las cartas en una página principal, boca abajo (sin revelar el contenido):
+
+   > 👉 Hacer un GET de todas las cartas y mostrarlas en pantalla
+  
+   > 👉 Hooks que necesitamos: `useEffect`, `useParams` y `useState`
 
   
-- Al hacer click en una carta, navegar a una página de detalle mostrando más información sobre las cartas:
-   Dicho de en otras palabras: hacer una peticióN GET por ID de todas las cartas y mostrarlas en pantalla
+- 2️⃣ Al hacer click en una carta, navegar a una página de detalle mostrando más información sobre las cartas:
+  
+  > 👉 Hacer una petición GET por ID de cada carta y mostrar la información en pantalla
+  
+  > 👉 Hooks que necesitamos:  `useParams`, `useEffect`, y `useState`
 
-  Hooks que necesitamos:  `useParams`, `useEffect`, y `useState`
 
 
-### Requisitos técnicos  
+### Recomendaciones técnicas  
 - React con `react-router-dom` para navegación con createBrowserRouter.  (archivo router.jsx)
-- Lógica para hacer la petición de cartas en un archivo `services.js`.  
+- Lógica para hacer la petición de cartas en un archivo  separado `services.js`.  
 - Uso de hooks `useEffect` y `useState` para gestionar estado y efectos.  
 
 ---
 
 ## Nivel 2: Lectura de cartas (Pasado, Presente, Futuro)
 
-### Funcionalidad principal  
-- Crear una página para “Echar las cartas”.   
-- Permitir al usuario seleccionar **solo tres cartas**, asignándolas a las posiciones:  
-  1. Pasado  
-  2. Presente  
-  3. Futuro  
-- Al seleccionar cada carta, mostrar su significado y la diosa contemporánea asociada, según la posición.  
-- Prevenir que se puedan elegir más de tres cartas.  
-- Permitir reiniciar la lectura para comenzar de nuevo.  
+### Funcionalidad principal : Crear una página para “Echar las cartas”.   
+
+- 1️⃣ Permitir al usuario seleccionar **solo tres cartas**, asignándolas a las posiciones: **Pasado, Presente, Futuro.**
+     
+  > 👉 Prevenir que se puedan elegir más de tres cartas.
+     
+- 2️⃣ Al seleccionar cada carta, mostrar su significado y la diosa contemporánea asociada, según la posición.
+    
+    
+  > 👉 Permitir reiniciar la lectura para comenzar de nuevo.  
 
 ### Requisitos técnicos  
 - Reutilizar la lógica y componentes del nivel 1 para mostrar cartas.  
