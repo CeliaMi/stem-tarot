@@ -18,7 +18,7 @@ Desarrollar una aplicación web en React que permita visualizar cartas de tarot,
 
    > 👉 Hacer un GET de todas las cartas y mostrarlas en pantalla
   
-   > 👉 Hooks que necesitamos: `useEffect`, `useParams` y `useState`
+   > 👉 Hooks que necesitamos: `useEffect` y `useState`
 
   
 - 2️⃣ Al hacer click en una carta, navegar a una página de detalle mostrando más información sobre las cartas:
