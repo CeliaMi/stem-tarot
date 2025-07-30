@@ -5,7 +5,7 @@ Con este proyecto podrás conocer a las mujeres del mundo de la ciencia y tecnol
 > agradecimiento especial a [@MAlexGG](https://github.com/MAlexGG)
 
 ## Objetivo general  
-Desarrollar una aplicación web en React que permita visualizar cartas de tarot, ver el detalle de cada una y realizar una lectura de tres cartas asignadas a pasado, presente y futuro.
+Desarrollar una aplicación web en React que permita visualizar cartas de tarot, ver el detalle de cada una y para aquellas personas que quieran dar un paso más, realizar una lectura de tres cartas asignadas a pasado, presente y futuro.
 
 ---
 
@@ -14,14 +14,20 @@ Desarrollar una aplicación web en React que permita visualizar cartas de tarot,
 ### Funcionalidad principal  
 - Consumir la API pública de cartas de tarot:  
   [https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot](https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot)
+  
 - Mostrar todas las cartas en una página principal, boca abajo (sin revelar el contenido).
-- Al hacer clic en una carta, navegar a una página de detalle mostrando:  
-  - Nombre de la carta  
-  - Significado  
-  - Diosa contemporánea asociada  
+   Dicho de en otras palabras: hacer un GET de todas las cartas y mostrarlas en pantalla
+    Hooks que necesitamos: `useEffect`, `useParams` y `useState`
+
+  
+- Al hacer click en una carta, navegar a una página de detalle mostrando más información sobre las cartas:
+   Dicho de en otras palabras: hacer una peticióN GET por ID de todas las cartas y mostrarlas en pantalla
+
+  Hooks que necesitamos:  `useParams`, `useEffect`, y `useState`
+
 
 ### Requisitos técnicos  
-- React con `react-router-dom` para navegación con createBrowserRouter.  
+- React con `react-router-dom` para navegación con createBrowserRouter.  (archivo router.jsx)
 - Lógica para hacer la petición de cartas en un archivo `services.js`.  
 - Uso de hooks `useEffect` y `useState` para gestionar estado y efectos.  
 
